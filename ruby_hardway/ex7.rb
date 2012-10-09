@@ -1,9 +1,11 @@
-snow = "snow"
+snow = "snow" # is the variable 
 
-puts "Mary had a little lamb."
-puts "It's fleece was white #{snow}." 
-puts "And everywhere that Mary went"
-puts "." * 10 #whats that do?
+puts "Mary had a little lamb." # string output 
+puts "It's fleece was white #{snow}." # output and variable
+puts "And everywhere that Mary went"# string output
+puts "." * 10 #whats that do? This is 10 x . 
+
+# all below are variables 
 
 end1 = "C"
 end2 = "h"
