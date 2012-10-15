@@ -25,7 +25,7 @@ end
   
   
 if found == false
-  response = yammer_api.post("https://www.yammer.com/api/v1/users.json?access_token=#{access_token}&email=#{email}", nil)
+  response = yammer_api.get("https://www.yammer.com/api/v1/users/by_email.json?access_token=#{access_token}&email=#{email}", nil)
 else # would be for true case 
   puts "That user already exists"
 end

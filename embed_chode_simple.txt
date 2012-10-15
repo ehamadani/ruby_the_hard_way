@@ -1,0 +1,22 @@
+<script data-app-id="hyB2pTvrL36Y50py8EWj6A"
+
+src="https://assets.yammer.com/platform/yam.js"></script>
+
+<script>
+
+yam.connect.embedFeed(
+
+     { container: '#embedded-feed'
+
+     , network: 'essieqa.com'
+
+     , feedType: 'group'
+
+     , feedId: '812413'
+
+});
+
+</script>
+
+<div id="embedded-feed"></div>
+

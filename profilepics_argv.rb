@@ -3,6 +3,10 @@ require 'net/https'
 require 'json'
 require 'open-uri'
 
+ARGV.each do|a|
+  puts "Argument: #{a}"
+end
+
 base_url = 'www.yammer.com'
 port = 443
 access_token = "UqM9tvECgDSh9mawkcrA"
