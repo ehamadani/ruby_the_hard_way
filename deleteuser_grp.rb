@@ -14,6 +14,6 @@ yammer_api = Net::HTTP.new(base_url, port) #create the connection to Yammer API
 yammer_api.verify_mode = OpenSSL::SSL::VERIFY_NONE
 yammer_api.use_ssl = true # Enable SSL
 
-response = yammer_api.delete("https://www.yammer.com/api/v1/group_memberships/812413.json")
+response = yammer_api.delete("https://www.yammer.com/api/v1/group_memberships/812413.json?access_token=#{access_token}")
 
 puts response
