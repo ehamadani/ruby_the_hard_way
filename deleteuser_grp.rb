@@ -16,5 +16,4 @@ yammer_api.use_ssl = true # Enable SSL
 
 response = yammer_api.delete("https://www.yammer.com/api/v1/group_memberships/812413.json")
 
-parse_response = JSON.parse(response.body)
-# puts parse_response[0]["id"]
+puts response
